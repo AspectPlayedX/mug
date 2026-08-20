@@ -1,6 +1,6 @@
 # MUG
 
-A small Windows utility toolkit — pick apps from a list, install them all in
+A small Windows utility toolkit, pick apps from a list, install them all in
 one go. Terminal-styled, keyboard driven, no installer.
 
 ## Run it
@@ -21,7 +21,7 @@ That downloads the latest build to `%LOCALAPPDATA%\MUG` and launches it.
 Nothing is installed until you choose something.
 
 You can also grab `mug-loader.exe` straight from
-[Releases](../../releases/latest) and double-click it — it's a single
+[Releases](../../releases/latest) and double-click it, it's a single
 self-contained file.
 
 > **Windows will warn you.** The app isn't code-signed, so SmartScreen shows
@@ -45,13 +45,13 @@ self-contained file.
 Rows already on your machine show a dimmed tick; ones with an update
 available show the version change instead of a description.
 
-Installs run one at a time on purpose — parallel package installs fight each
+Installs run one at a time on purpose, parallel package installs fight each
 other and fail in confusing ways.
 
 ## Customising the list
 
 The app list lives in `%LOCALAPPDATA%\MUG\catalog.json`, written on first
-run. Edit it and restart — no rebuild needed. A `catalog.json` next to the
+run. Edit it and restart, no rebuild needed. A `catalog.json` next to the
 exe takes priority, which is handy for a portable copy.
 
 If the file has a syntax error, the app keeps working with its built-in list
