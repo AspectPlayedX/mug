@@ -61,10 +61,10 @@ and tells you which line is wrong. It won't overwrite your edits.
 
 Everything lives in `%LOCALAPPDATA%\MUG`:
 
-- `catalog.json` — the app list
-- `config.txt` — settings
-- `selection.txt` — exported selections
-- `log.txt` — what happened, including install failures
+- `catalog.json` > the app list
+- `config.txt` > settings
+- `selection.txt` > exported selections
+- `log.txt` > what happened, including install failures
 
 Delete that folder to reset.
 
@@ -73,5 +73,5 @@ Delete that folder to reset.
 Most entries install through [winget](https://learn.microsoft.com/en-us/windows/package-manager/),
 which handles downloads, hash verification and later upgrades. If winget is
 missing the app tries to install it. A few apps winget doesn't carry are
-fetched from the vendor or from GitHub releases — each row is tagged so you
+fetched from the vendor or from GitHub releases, each row is tagged so you
 can see which is which before running it.
