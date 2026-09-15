@@ -1,7 +1,7 @@
 # MUG
 
 A small Windows utility toolkit, pick apps from a list, install them all in
-one go. Terminal-styled, keyboard driven, no installer.
+one go. Terminal-styled, keyboard driven, no installer. Can be used with PowerShell or CMD.
 
 ## Run it
 
